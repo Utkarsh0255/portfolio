@@ -211,7 +211,8 @@ min-height: 90vh;
     position: relative;
 }
 .nav-li a{
-    transition: .5s;
+    transition: 1s;
+    width: max-content;
 }
 .nav-li a::after{
     content: '';
@@ -224,7 +225,7 @@ min-height: 90vh;
     transition: .5s;
 }
 .nav-li a:hover {
-    box-shadow: inset 100px 0 0 0 white;
+    box-shadow: inset 150px 0 0 0 white;
     color: black;
   }
 .nav-li a:hover::after{
