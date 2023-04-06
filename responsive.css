@@ -10,6 +10,9 @@
   /* .skills{
     max-width: 450px;
   } */
+  .myself{
+    padding: 10px;
+  }
   .logo{
     display: none;
   }
